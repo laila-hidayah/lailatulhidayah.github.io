@@ -169,7 +169,6 @@ h6 {
     float: left;
     overflow: auto;
     width: 70%;
-    text-align: center;
 }
 /* End Main */
 
@@ -212,6 +211,9 @@ h6 {
 .box-isi-table {
     font-size: 16px;
     margin: 0 0 4px 4px;
+}
+.p {
+    padding: 10px 20px;
 }
 /* End Box */
 
@@ -355,6 +357,7 @@ input[type="submit"],
   backface-visibility: hidden;
   max-width: 100%;
   vertical-align: top;
+  height: 350px;
 }
 .snip1571 figcaption {
   bottom: 30px;
