@@ -1,0 +1,402 @@
+/* Start FOnt */
+@import url(<link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">);
+/* End FOnt */
+
+/* Start Body */
+body {
+    /* background-color: rgb(230, 95, 95); color: azure;  */
+    background-image: url("../images/anime.png");
+    color: black;
+    background-repeat: repeat;
+    background-size: auto;
+    font-family: 'Questrial', sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+} 
+/* End Body */
+
+/* Start Debug */
+.bg-red {
+    background-color: rgb(207, 57, 57)
+}
+
+.bg-white {
+    background-color: white
+}
+
+.bg-pink {
+    background-color: palevioletred;
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90% 
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%
+}
+.container-middle {
+    margin: 20px auto;
+    overflow: auto;
+    width: 80%;
+    text-align: center;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: left;
+}
+/* End Logo */
+
+/* Start Anchor / HyperLink */
+a:link,
+a:visited {
+    color: rgb(0, 170, 255);
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+/* End Anchor / HyperLink */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: rgb(50, 87, 99);
+    border-radius: 4px;
+    box-shadow: 
+    0 3px 5px -1px rgb(1, 29, 43),
+    0 6px 10px 0 rgb(78, 3, 3),
+    0 1px 18 px black;
+}
+
+.menu-primer li {
+    border-right: 1px solid white;
+    display: inline-block;
+}
+
+.menu-primer a { 
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: #c73232;
+    color: #ffffff;
+    text-decoration: none;
+}
+/* End Menu Primer */
+ 
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 34px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 28x;
+}
+h4 {
+    font-size: 20px;
+}
+h5 {
+    font-size: 18px;
+}
+h6 {
+    font-size: 16px;
+}
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: rgb(182, 225, 228);
+    border: 1px solid: aqua;
+    border radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+} 
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 20%;
+}
+
+.main-home-two {
+    float: rigth;
+    width: 20%;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 95px;
+}
+
+.main-one {
+    float: left;
+    overflow: auto;
+    width: 70%;
+    text-align: center;
+}
+/* End Main */
+
+/* Start Sidebar */
+.sidebar-two {
+    loat: right;
+    overflow: auto;
+    width: 30%;
+}
+/* End Sidebar */
+
+/* Start Box */
+.box-heading {
+    background-color: rgb(50, 87, 99);
+    border: 1px solid whitesmoke;
+    border-radius: 5px 33x 0 0;
+    margin: 0;
+    padding; 10px 0px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+.box-heading h4 {
+    font-size: 16px;
+    margin: 0;
+}
+.box-heading h2 {
+    font-size: 16px;
+    margin: 0 0 1px 20px;
+    text-align: left;
+    padding: 5px 0;
+}
+.box-isi {
+    background-color: #ffffff;
+    border: 1px solidb black;
+    border-top: 1px;
+    margin: 0;
+    padding; 10px 20px;
+}
+.box-isi-table {
+    font-size: 16px;
+    margin: 0 0 4px 4px;
+}
+/* End Box */
+
+/* Start Kritik dan Saran */
+.kritik-dan-saran {
+    border-left: 4px solid rgb(50, 87, 99);
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/* End Kritik dan Saran */
+
+/* Start Perpus Table */
+.perpus-table {
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+.perpus-table th {
+    background-color: rgb(182, 225, 228);
+}
+.perpus-table td {
+    text-align: center;
+    background-color: white;
+}
+/* End Perpus Table */
+
+/* Start Form */
+input[type="text"],
+input[type="email"],
+textarea {
+    font-size: 14px;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+input::placeholder,
+textarea::place {
+    color: rgb(182, 225, 228);
+    font-weight: 300;
+}
+label {
+    margin: 0 20px;
+}
+input[type="submit"],
+.button {
+    background-color: #ffffff;
+    background-image: linear-gradient(-180deg);
+    border: 1px solid rgb(10, 61, 78);
+    border-radius: 4px;
+    color: black !important;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    text-align: middle;
+}
+/* End Form */
+
+/* Start Contact Form */
+.contact-form-div {
+    margin: 30px 0;
+}
+/* End Contact Form */
+
+/* Start Menu Sekunder */
+.menu-sekunder-one {
+    border-bottom: 1px solid: black;
+    border-top: 1px solid: black;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder {
+    background-color: rgb(50, 87, 99);
+    font-size: 12px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul{
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+.menu-sekuner li a,
+.menu-sekunder p {
+    font-size: 12px;
+}
+.menu-sekunder-one, 
+.menu-sekunder-two,
+.menu-sekunder-three {
+    color: white;
+    float: left;
+}
+.menu-sekunder-one {
+    width: 45%;
+}
+.menu-sekunder-two {
+    width: 20%;
+}
+.menu-sekunder-three {
+    width: 35%;
+}
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/* End Menu Sekunder */
+
+/* Start Copyright */
+.copyright p {
+    font-size: 15px;
+}
+/* End Copyright */
+
+/* Start Effect */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600;);
+.snip1571 {
+  background-color: #000;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  max-width: 25%;
+  min-width: 25%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.snip1571 *,
+.snip1571 *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1571 img {
+  backface-visibility: hidden;
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1571 figcaption {
+  bottom: 30px;
+  left: 0;
+  position: absolute;
+  z-index: 0;
+}
+.snip1571 figcaption:before {
+  background-color: #ffffff;
+  bottom: -5px;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 100%;
+  top: -5px;
+  z-index: -1;
+}
+.snip1571 h3 {
+  background-color: #c73232;
+  color: #ffffff;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.snip1571 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1571:hover > img,
+.snip1571.hover > img {
+  opacity: 0.1;
+}
+.snip1571:hover figcaption:before,
+.snip1571.hover figcaption:before {
+  right: -5px;
+}
+/* End Effect */
